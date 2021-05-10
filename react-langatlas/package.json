@@ -1,0 +1,99 @@
+{
+  "name": "react-langatlas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/cli": "^4.42.0",
+    "@createnl/grouped-checkboxes": "^1.1.2",
+    "@data-ui/histogram": "0.0.84",
+    "@popperjs/core": "^2.6.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "@types/jest": "^26.0.19",
+    "@types/node": "^12.19.11",
+    "@types/react": "^16.14.2",
+    "@types/react-dom": "^16.9.10",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/typescript": "^2.0.0",
+    "animated_gif": "^1.0.2",
+    "bootstrap": "^4.5.3",
+    "checkbox": "^0.0.1",
+    "data-ui": "^0.1.0",
+    "echarts": "^5.0.2",
+    "echarts-for-react": "^3.0.0-beta.2",
+    "echarts-stat": "^1.2.0",
+    "freewhois": "^1.2.0",
+    "gifencoder": "^2.0.1",
+    "gifshot": "^0.4.5",
+    "halogenium": "^2.3.0",
+    "ip2location-nodejs": "^8.4.0",
+    "json-stable-stringify": "^1.0.1",
+    "png-file-stream": "^1.2.1",
+    "public-ip": "^4.0.3",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.0",
+    "react-bootstrap-sidebar": "^0.0.1",
+    "react-bootstrap-table": "^4.3.1",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-filter": "^1.3.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-dom": "^17.0.1",
+    "react-item-select": "^1.0.2",
+    "react-native": "^0.63.4",
+    "react-native-web": "^0.14.10",
+    "react-popper": "^2.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
+    "react-scripts": "4.0.1",
+    "react-select": "^3.1.1",
+    "react-slideshow-image": "^3.4.3",
+    "react-stl-obj-viewer": "^1.2.0",
+    "request-ip": "^2.1.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1",
+    "startbootstrap-simple-sidebar": "^5.1.3",
+    "stl-viewer": "^0.12.0",
+    "styled-components": "^5.2.1",
+    "three": "^0.124.0",
+    "three-orbit-controls": "^82.1.0",
+    "three-stl-loader": "^1.0.6",
+    "typescript": "^4.1.3",
+    "web-vitals": "^0.2.4",
+    "yarn": "^1.22.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@types/react-bootstrap": "^0.32.25",
+    "@types/react-bootstrap-table-next": "^4.0.11",
+    "@types/react-bootstrap-table2-filter": "^1.3.1",
+    "@types/react-bootstrap-table2-paginator": "^2.1.1",
+    "@types/react-native": "^0.63.45",
+    "@types/react-router-hash-link": "^1.2.1",
+    "@types/react-select": "^3.1.2"
+  }
+}
