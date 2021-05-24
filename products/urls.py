@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from .views import ProductViewSet, DownloadViewSet
+from .views import ProductViewSet, DownloadViewSet, ProceessSentenceView
 
 urlpatterns = [
     path('download/<slug:category>/<str:subject>/<str:subcategory>/<slug:contrast>', DownloadViewSet.as_view({
@@ -35,4 +35,8 @@ urlpatterns = [
         'put': 'update',
         'delete': 'destroy',
     })),
+
+    path('products/sentence_space/', ProceessSentenceView.as_view({
+        'put': 'process_sentences',
+    }))
 ]

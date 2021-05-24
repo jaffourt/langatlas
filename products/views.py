@@ -96,3 +96,8 @@ class DownloadViewSet(viewsets.ViewSet):
             },
         )
         return Response(url, status=status.HTTP_202_ACCEPTED)
+
+class ProceessSentenceView(viewsets.ViewSet):
+    
+    def process_sentences(self, request):
+        return Response(request.data, status=status.HTTP_202_ACCEPTED)
